@@ -5,9 +5,8 @@ url: "https://www.jhsvendsen.com"
 nav:
   main:
     writing: "/writing"
-    speaking: "/speaking"
-    projects: "/projects"
-    photos: "https://www.flickr.com/photos/brikis98/albums/"
+    videos: "/vidoes"
+    research: "/projects"
   writing:
     all: "/writing"
     popular: "/writing/popular"
@@ -15,44 +14,28 @@ nav:
     rss: "/feed.xml"
 
 # Bio settings
-name: "Yevgeniy Brikman"
+name: "Johan Hentze Svendsen"
 description: "The home page of Johan Hentze Svendsen, MSc Motorsport Engineering"
-thumbnail_path: "profile-photos/yevgeniy-brikman-medium.jpg"
-bitcoin_address: "1G8qEUVUS8BBSwSWNM4EWR622vUpGtee66"
-hello_startup_url: "https://www.hello-startup.net/"
-website_repo_url: "https://github.com/brikis98/yevgeniy-brikman-homepage"
-atomic_squirrel_url: "https://www.atomic-squirrel.net/"
-gruntwork_url: "https://www.gruntwork.io/"
-terraform_up_and_running_url: "https://www.terraformupandrunning.com/"
-terraform_up_and_running_code_url: "https://github.com/brikis98/terraform-up-and-running-code"
+thumbnail_path: "profile-photos/johan.jpg"
 
 # URLs
 contact_urls:
-  twitter:
-    url: "https://twitter.com/brikis98"
-    label: "Twitter"
-    icon: "twitter-square"
-    username: "@brikis98"
   linkedin:
-    url: "https://www.linkedin.com/in/jbrikman"
+    url: "https://www.linkedin.com/in/johanhentzesvendsen"
     label: "LinkedIn"
     icon: "linkedin-square"
   facebook:
-    url: "https://www.facebook.com/brikis98"
+    url: "https://www.facebook.com/johan.hentze.5"
     label: "Facebook"
     icon: "facebook-square"
-  slideshare:
-    url: "https://www.slideshare.net/brikis98"
-    label: "SlideShare"
-    icon: "slideshare"
   github:
-    url: "https://github.com/brikis98/"
+    url: "https://github.com/jhsvendsen"
     label: "GitHub"
     icon: "github-square"
   email:
-    url: "mailto:jim@ybrikman.com"
+    url: "mailto:j.hentze.svendsen@gmail.com"
     label: "Email"
-    value: "jim@ybrikman.com"
+    value: "j.hentze.svendsen@gmail.com"
     icon: "envelope-square"
 
 # Jekyll build settings
@@ -63,7 +46,7 @@ sass:
   sass_dir: "/assets/css"
   style: :compressed
 highlighter: rouge
-timezone: 'America/Los_Angeles'
+timezone: 'Europe/Berlin'
 repository: brikis98/yevgeniy-brikman-homepage
 
 # Plugins (GitHub Pages only support a few)
