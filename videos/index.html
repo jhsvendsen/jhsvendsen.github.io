@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Yevgeniy Brikman: Speaking"
+title: "Johan Hentze Svendsen: videos"
 redirect_from: "/talks"
-header_title: Speaking
-include_header: speaking_header.html
-nav_item: speaking
+header_title: videos
+include_header: videos_header.html
+nav_item: videos
 ---
 
-{% for talk in site.data.speaking %}
+{% for talk in site.data.videos %}
   <div class="border-bottom border-light-gray mt4 mb4 pb3 circle-line">
     <a href="{{ talk.links | map: 'url' | first }}" target="_blank" name="{{ talk.name | downcase | replace:' ','-' | remove:',' }}">
       <h2>{{ talk.name }}</h2>
