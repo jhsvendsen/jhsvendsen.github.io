@@ -1,5 +1,5 @@
 ---
-layout: post-wide
+layout: post
 title: Optimal Controls MSc Dissertation
 date: '2020-05-03'
 author: Johan Hentze Svendsen

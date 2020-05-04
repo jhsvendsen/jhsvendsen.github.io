@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Vehicle Dynamics Books I Recommend
-date: '2020-05-03'
+date: '2020-05-04'
 author: Johan Hentze Svendsen
-thumbnail_path: blog/VDbooks/F1.jpg
 tags:
 - Review
+thumbnail_path: blog/VDbooks/F1.jpg
 ---
 
 ## Introduction:  
@@ -71,4 +71,4 @@ I feel that it does not go into as much detail about the concepts as Milliken do
 So to me these books actually complement each other, even though people often see it as 
 one or the other.
 
-{% include figure.html path="blog/VDbooks/VDItaly.jpg" alt="The Science of Vehicle Dynamics"%}
+{% include figure.html path="blog/VDbooks/VDItaly.jpg" alt="The Science of Vehicle Dynamics" %}
