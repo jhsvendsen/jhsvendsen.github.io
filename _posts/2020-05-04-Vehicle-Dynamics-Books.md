@@ -10,7 +10,7 @@ thumbnail_path: blog/VDBooks/F1.jpeg
 
 ## Introduction:  
 
-{% include figure.html path="blog/VDBooks/F1.jpg" alt="SF90 in Cornering" %}
+{% include figure.html path="blog/VDBooks/F1.jpeg" alt="SF90 in Cornering" %}
 
 Studying to the level of MSc, means I have come into contact with many different 
 books. Therefore, I thought it would be nice to make a list of the books I enjoyed 
@@ -33,9 +33,9 @@ find where the information is and then go and read that section. I would recomme
 thinking of having a career involving vehicle dynamics to purchase this book, but 
 for a casual user I would look elsewhere.
 
-{% include figure.html path="blog/projects/MilVD.PNG" alt="Race Car Vehicle Dynamics" %}
+{% include figure.html path="blog/projects/MilVD.png" alt="Race Car Vehicle Dynamics" %}
 
-## The Introduction
+## From Basic to Advanced
 Title: Performance Vehicle Dynamics
 Author: James Balkwill
 
