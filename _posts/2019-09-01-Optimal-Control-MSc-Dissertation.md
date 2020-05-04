@@ -8,7 +8,7 @@ tags:
 - LQR
 - Bicycle model
 - Vehicle Dynamics
-thumbnail_path: blog/Dissertation/Control.png
+thumbnail_path: blog/Dissertation/Control.PNG
 ---
 
 <object data="/assets/pdfs/Optimal-Control-Svendsen.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" width='100%' height='1450px' type='application/pdf'>

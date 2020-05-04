@@ -8,7 +8,7 @@
     the code could do with some care to make it faster and look 
     cleaner.
   url: "https://github.com/jhsvendsen/MPCvsLQR"
-  image: "Control.png"
+  image: "Control.PNG"
 - name: "How to become a Race engineer"
   date: "2016"
   description: |
