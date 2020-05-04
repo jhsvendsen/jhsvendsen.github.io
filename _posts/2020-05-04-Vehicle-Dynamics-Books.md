@@ -3,9 +3,9 @@ layout: post
 title: Vehicle Dynamics Books I Recommend
 date: '2020-05-03'
 author: Johan Hentze Svendsen
+thumbnail_path: blog/VDbooks/F1.jpg
 tags:
 - Review
-thumbnail_path: blog/VDbooks/F1.jpg
 ---
 
 ## Introduction:  
