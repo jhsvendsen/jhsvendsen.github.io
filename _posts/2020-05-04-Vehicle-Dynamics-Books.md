@@ -5,12 +5,12 @@ date: '2020-05-04'
 author: Johan Hentze Svendsen
 tags:
 - Review
-thumbnail_path: blog/VDbooks/F1.jpg
+thumbnail_path: blog/VDBooks/F1.jpg
 ---
 
 ## Introduction:  
 
-{% include figure.html path="blog/VDbooks/F1.jpg" alt="SF90 in Cornering" %}
+{% include figure.html path="blog/VDBooks/F1.jpg" alt="SF90 in Cornering" %}
 
 Studying to the level of MSc, means I have come into contact with many different 
 books. Therefore, I thought it would be nice to make a list of the books I enjoyed 
@@ -33,7 +33,7 @@ find where the information is and then go and read that section. I would recomme
 thinking of having a career involving vehicle dynamics to purchase this book, but 
 for a casual user I would look elsewhere.
 
-{% include figure.html path="blog/VDbooks/MilVD.png" alt="Race Car Vehicle Dynamics" %}
+{% include figure.html path="blog/VDBooks/MilVD.png" alt="Race Car Vehicle Dynamics" %}
 
 ## The Introduction
 Title: Performance Vehicle Dynamics
@@ -53,7 +53,7 @@ book is interesting and easy to read, so you will not get stuck. He also has put
 a ton of questions and answers, task and so forth to keep you well entertained for a 
 long time.
 
-{% include figure.html path="blog/VDbooks/James.jpg" alt="Performance Vehicle Dynamics" %}
+{% include figure.html path="blog/VDBooks/James.jpg" alt="Performance Vehicle Dynamics" %}
 
 ## The Italian Alternative to Milliken
 Title: The Science of Vehicle Dynamics
@@ -71,4 +71,4 @@ I feel that it does not go into as much detail about the concepts as Milliken do
 So to me these books actually complement each other, even though people often see it as 
 one or the other.
 
-{% include figure.html path="blog/VDbooks/VDItaly.jpg" alt="The Science of Vehicle Dynamics" %}
+{% include figure.html path="blog/VDBooks/VDItaly.jpg" alt="The Science of Vehicle Dynamics" %}
