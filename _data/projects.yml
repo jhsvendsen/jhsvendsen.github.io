@@ -1,11 +1,3 @@
-- name: "How to become a Race engineer"
-  date: "2016"
-  description: |
-    Video which I created to help Danish students wanting to become 
-    Race engineers. In Denmark the university system does not support 
-    Motorsport, so it can be very difficult to know what to do.
-  url: "https://www.youtube.com/watch?v=tZzQ_4rhHlQ&t=20s"
-  image: "Me_Profile1.jpg"
 - name: "Controls Investigation for a Formula Student Car"
   date: "2016"
   description: |
@@ -16,4 +8,13 @@
     the code could do with some care to make it faster and look 
     cleaner.
   url: "https://github.com/jhsvendsen/MPCvsLQR"
-  image: "NonlinearmodelsetupLQRGS.png"
+  image: "Control.png"
+- name: "How to become a Race engineer"
+  date: "2016"
+  description: |
+    Video which I created to help Danish students wanting to become 
+    Race engineers. In Denmark the university system does not support 
+    Motorsport, so it can be very difficult to know what to do.
+    (Warning I am speaking danish in this video)
+  url: "https://www.youtube.com/watch?v=tZzQ_4rhHlQ&t=20s"
+  image: "Me_Profile1.jpg"
