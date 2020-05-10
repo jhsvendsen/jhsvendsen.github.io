@@ -10,7 +10,7 @@
   url: "https://github.com/jhsvendsen/ML_A-Z_templates"
   image: "ml.jpeg"
 - name: "Controls Investigation for a Formula Student Car"
-  date: "2016"
+  date: "2019"
   description: |
     Dissertation project regarding MPC and LQR controls for 
     the lateral controls of a formula student car. The paper 
@@ -26,7 +26,7 @@
     Video which I created to help Danish students wanting to become 
     Race engineers. In Denmark the university system does not support 
     Motorsport, so it can be very difficult to know what to do.
-    (Warning I am speaking danish in this video)
+    (OBS: I am speaking danish in this video)
   url: "https://www.youtube.com/watch?v=tZzQ_4rhHlQ&t=20s"
   image: "Me_Profile1.jpg"
 
