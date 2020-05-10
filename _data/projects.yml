@@ -1,3 +1,14 @@
+- name: "Machine Learning Repository"
+  date: "2016"
+  description: |
+    Repository of templates for machine learning, created
+    during a Udemy course. If anyone is interested in seeing
+    what kind of code is needed for the different types, then
+    these are a good indication of the level needed. I will 
+    use these for future projects, where I have some ideas
+    that I want to try.
+  url: "https://github.com/jhsvendsen/ML_A-Z_templates"
+  image: "ml.jpeg"
 - name: "Controls Investigation for a Formula Student Car"
   date: "2016"
   description: |
@@ -18,3 +29,5 @@
     (Warning I am speaking danish in this video)
   url: "https://www.youtube.com/watch?v=tZzQ_4rhHlQ&t=20s"
   image: "Me_Profile1.jpg"
+
+

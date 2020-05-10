@@ -5,7 +5,7 @@ url: "https://jhsvendsen.github.io."
 nav:
   main:
     writing: "/writing"
-    research: "/projects"
+    projects: "/projects"
   writing:
     all: "/writing"
     popular: "/writing/popular"
