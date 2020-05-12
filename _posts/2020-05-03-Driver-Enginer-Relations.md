@@ -13,9 +13,6 @@ thumbnail_path: blog/DriverEngineer/MeandMikkel.jpg
 ---
 
 ## Introduction:  
-
-{% include figure.html path="blog/thumbs/MeandMikkel.jpg" alt="Talking with Casper Elgaard" %}
-
 Driver coaching is one of those things, where there is not one recipe on how to do it. 
 I am not even sure that the word “driver coaching” is correct all the time as it varies 
 from driver to driver on how much coaching needs to be done. Through the last couple of 
@@ -43,6 +40,9 @@ came into the office. Somehow seeing an F1 driver in real life felt a bit differ
 have seen them so many times on TV, that when you see them in real life it makes the moment 
 seem unreal. But I will bet that as with anything else it is just a question of the abnormal 
 becoming the new normal with time.
+
+
+{% include figure.html path="blog/thumbs/MeandMikkel.jpg" alt="Talking with Casper Elgaard" %}
 
 ## Talking to Un-experienced Drivers
 
