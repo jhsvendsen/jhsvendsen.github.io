@@ -49,7 +49,8 @@ realise the challenges of running such intensive controllers, which needs powerf
 hardware to compute in real time. 
 I enjoyed getting more experience with MATLAB and Simulink, as they are great tools 
 for engineers. Later I returned and completed a course on Udemy in MPC's, where I 
-got to use python for almost the same task. Here you can see why Simulink is 
+got to use python for almost the same task, but also got to realise my dream of coding 
+my own MPC. What I took from it was also that you can see why Simulink is 
 quite a powerful tool for control engineers, it is easy to sketch an idea, then 
 transfer it to Simulink and start filling out the blocks, even for engineers 
 without much experience in coding. I worked with ITK engineering on my project, who 
