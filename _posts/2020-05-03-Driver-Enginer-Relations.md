@@ -42,7 +42,7 @@ seem unreal. But I will bet that as with anything else it is just a question of 
 becoming the new normal with time.
 
 
-{% include figure.html path="blog/thumbs/MeandMikkel.jpg" alt="Talking with Casper Elgaard" %}
+{% include figure.html path="blog/DriverEngineer/MeandMikkel.jpg" alt="Talking with Chief Mechanic" %}
 
 ## Talking to Un-experienced Drivers
 
