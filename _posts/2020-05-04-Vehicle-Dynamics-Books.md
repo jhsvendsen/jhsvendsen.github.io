@@ -5,6 +5,9 @@ date: '2020-05-04'
 author: Johan Hentze Svendsen
 tags:
 - Review
+- Books
+- Vehicle Dynamics
+- Analysis
 thumbnail_path: blog/VDBooks/F1.jpeg
 ---
 

@@ -5,6 +5,9 @@ date: '2020-05-04'
 author: Johan Hentze Svendsen
 tags:
 - Review
+- Data analysis
+- Motorsport
+- Books
 thumbnail_path: blog/DEBooks/data.png
 ---
 

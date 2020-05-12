@@ -4,7 +4,11 @@ title: Driver and Engineer Relationship
 date: '2020-05-03'
 author: Johan Hentze Svendsen
 tags:
-- Review
+- Drivers
+- Engineering
+- Coaching
+- Relationships
+- Data analysis
 thumbnail_path: blog/DriverEngineer/MeandMikkel.jpg
 ---
 
