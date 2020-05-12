@@ -9,7 +9,7 @@ tags:
 - Bicycle model
 - Vehicle Dynamics
 - Formula Student
-thumbnail_path: blog/Dissertation/MPC.PNG
+thumbnail_path: blog/Dissertation/MPC.png
 ---
 ## Introduction:
 During my final year in my master’s degree in engineering, I had now found 
@@ -35,8 +35,8 @@ there were cones setup, which had the driver swerving.
 
 {% include figure.html path="projects/trackdata.png" alt="Fault in Track Data" %}
 
-This meant that in the optimisation of trajectory, then the minimum curvature 
-curvature calculation got a swerve in the optimisation, which we of course know should 
+This meant that in the optimisation of trajectory the minimum curvature 
+curvature calculation got a swerve in the, which we of course know should 
 not be there. But such is it with many dissertations I believe, you acknowledge the areas 
 that can be improved, but you will often be limited by time and data.
 
