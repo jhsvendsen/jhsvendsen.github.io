@@ -70,7 +70,7 @@ forget.
 {% include figure.html path="projects/OBR.jpg" alt="Oxford Brookes Racing" %}
 
 # Conclusion
-There will also be things that you will want to change when looking back at 
+There will always be things that you will want to change when looking back at 
 a project, but I believe that taking time to reflect is always good. Sometimes 
 just do it to remind yourself of how far you have come. If you look back and 
 think I could have done so much better now, that means that you have grown as 
