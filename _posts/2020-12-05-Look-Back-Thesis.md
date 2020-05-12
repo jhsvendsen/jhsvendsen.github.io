@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Optimal Controls MSc Dissertation
+title: Looking Back.. MSc Dissertation
 date: '2020-12-04'
 author: Johan Hentze Svendsen
 tags:
