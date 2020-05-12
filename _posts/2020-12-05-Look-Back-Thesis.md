@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Optimal Controls MSc Dissertation
-date: '2019-09-01'
+date: '2020-12-04'
 author: Johan Hentze Svendsen
 tags:
 - MPC
@@ -33,14 +33,14 @@ Below is an example of some of the data I would have like to revisit, you can
 see that the track has a kink, which is cause the data was done on car data and 
 there were cones setup, which had the driver swerving.
 
-{% include figure.html path="blog/thumbs/trackdata.png" alt="Fault in Track Data" %}
+{% include figure.html path="projects/trackdata.png" alt="Fault in Track Data" %}
 
 This meant that in the optimisation of trajectory, then the minimum curvature 
 curvature calculation got a swerve in the optimisation, which we of course know should 
 not be there. But such is it with many dissertations I believe, you acknowledge the areas 
 that can be improved, but you will often be limited by time and data.
 
-{% include figure.html path="blog/thumbs/MCvsSP.png" alt="Minimum Curvature vs Shortest Path" %}
+{% include figure.html path="projects/MCvsSP.png" alt="Minimum Curvature vs Shortest Path" %}
 
 # The good
 It was amazing getting to improve my skills in control systems, it is an interesting 
@@ -67,7 +67,7 @@ best results. This experience along with the experience of getting second place
 in one of the toughest competitions in engineering is something I will never 
 forget. 
 
-{% include figure.html path="blog/thumbs/OBR.jpg" alt="Oxford Brookes Racing" %}
+{% include figure.html path="projects/OBR.jpg" alt="Oxford Brookes Racing" %}
 
 # Conclusion
 There will also be things that you will want to change when looking back at 
