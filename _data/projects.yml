@@ -1,3 +1,12 @@
+- name: "Straight Line Acceleration"
+  date: "2020"
+  description: |
+    Python script for the calculation of straigh line 
+    performance of a vehicle. the excel included is the 
+    specifications of an Audi R8, but the parameters can 
+    be changed to anything. 
+  url: "https://github.com/jhsvendsen/StraighLineAcc"
+  image: "acceleration.jpg"
 - name: "Machine Learning Repository"
   date: "2020"
   description: |
