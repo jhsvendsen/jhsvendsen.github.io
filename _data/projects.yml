@@ -8,6 +8,7 @@
     valuable in situations where one would want to 
     remove the sensor. OBS: WORKING PROGRESS
   url: "https://github.com/jhsvendsen/SlipAngleML"
+  image: "slipangle.jpg"
 - name: "Straight Line Acceleration"
   date: "2020"
   description: |
