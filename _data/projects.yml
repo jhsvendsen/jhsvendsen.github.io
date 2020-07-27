@@ -1,3 +1,13 @@
+- name: "Slip Angle Approximation using NN and RNN"
+  date: "2020"
+  description: |
+    NN and RNN to predict the Slip Angle of a tire.
+    Slip Angle sensors are expensive and heavy, so 
+    there is a desire to use the sensor less. A model
+    which gives good approximation can therefore be 
+    valuable in situations where one would want to 
+    remove the sensor. OBS: WORKING PROGRESS
+  url: "https://github.com/jhsvendsen/SlipAngleML"
 - name: "Straight Line Acceleration"
   date: "2020"
   description: |
