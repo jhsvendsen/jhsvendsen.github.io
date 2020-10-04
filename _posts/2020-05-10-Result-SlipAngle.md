@@ -38,6 +38,7 @@ package called Keras, with a TensorFlow background. This toolbox provides the en
 with many toolboxes and data analysis tools to help make the correct decisions.
 
 ## ANN Model
+```python
 regressor = Sequential()
 
 Adding the input layer and the first hidden layer
@@ -81,7 +82,7 @@ history = regressor.fit(X_train, y_train,
                         epochs = 200, batch_size = 200,
                          verbose=1, validation_split=0.33,
                           shuffle= True)
-    
+```    
 
 The model was iterated through various parameters using both k-fold cross validation and
 analyzing the output data, to make changes to the model.
