@@ -117,7 +117,7 @@ regressor.compile(optimizer = 'adam',
 
 # Fitting the ANN to the Training set
 history = regressor.fit(X_train, y_train, 
-                        epochs = 200, batch_size = 200,
+                        epochs = 200, batch_size = 256,
                          verbose=1, validation_split=0.33,
                           shuffle= True)
 ```    
@@ -177,11 +177,91 @@ plt.legend(['train', 'val'], loc='upper left')
 plt.show()
 ``` 
 
+
+# RNN - model
+
+Two models were created with different lookback from below which looks
+back 1 sample and another which looks back 3 samples, to compare how
+this changes the results.
+
+```python
+# Initialising the RNN
+regressor = Sequential()
+
+# adding first layer
+regressor.add(LSTM(units = 80, return_sequences = True,
+                   input_shape=(look_back,50),
+                   activation = 'relu'))
+regressor.add(Dropout(0.2))
+
+# adding second layer
+regressor.add(LSTM(units = 80, return_sequences = True,
+                   activation = 'relu'))
+regressor.add(Dropout(0.2))
+
+# adding third layer
+regressor.add(LSTM(units = 80, return_sequences = True,
+                   activation = 'relu'))
+regressor.add(Dropout(0.2))
+
+# adding third layer
+regressor.add(LSTM(units = 80, return_sequences = True,
+                   activation = 'relu'))
+regressor.add(Dropout(0.2))
+
+# adding fourth layer last layer so return = false
+regressor.add(LSTM(units = 100, return_sequences = False,
+                   activation = 'relu'))
+regressor.add(Dropout(0.2))
+
+
+# Output layer
+regressor.add(Dense(units = 1))
+
+# Compilling the RNN
+regressor.compile(optimizer = 'adam', 
+                  loss = 'mean_squared_error',
+                  metrics=['mean_squared_error',
+                           'logcosh'])
+
+# Fitting the RNN to the Training set
+history = regressor.fit(trainX, trainY, epochs = 300, batch_size = 256,verbose=1, validation_split=0.33, shuffle= False)
+```
+# RNN Model Results
+
+Looking at the results from the loss function in the LSTM, we can see that both
+models converged around 300 epochs, but with the 3 sample lookback we can suddenly
+see that it has a much easier time on the validation set, then on the training set.
+
+The loss function is also MSE in the LSTM 
+
+LSTM with 1 sample lookback
+{% include figure.html path="projects/lstmloss1.png" alt="RNN Loss vs Epochs" %}
+
+LSTM with 3 sample lookback
+{% include figure.html path="projects/lstmloss2.png" alt="RNN Loss vs Epochs" %}
+
+When comparing with the ANN result with the LSTM below, one has to remember that 
+the test data is shuffled, which is good for ANN training and analysis, but cannot
+be done with an LSTM as it needs to be the same as when data is being sampled.
+
+LSTM with 1 sample lookback
+{% include figure.html path="projects/lstmresult1.png" alt="Prediction Results 1" %}
+
+LSTM with 3 sample lookback
+{% include figure.html path="projects/lstmresult2.png" alt="Prediction Results 2" %}
+
+The results and loss vs epochs, show that the LSTM still has some improving that needs to be done.
+The model was created based on the ANN, but based on the fluctuations it seems
+like the model needs a different loss, which maybe isn't as affected by outliers in the
+data. here a huber or logcosh could be good options. In general the trace if following
+relatively well and gives confidence that LSTM could end up being the better choice.
+
 # Conclusion
 The work has shown that neural networks has potential to aid engineer in 
 modelling tire dynamics, even with very little data (20 laps).
 
-The model is able to quite accuratly predict the slip angles of the Lotus
+The ANN model is able to quite accuratly predict the slip angles of the Lotus
 R125 from Assetto Corsa. But in Assetto Corsa it seems that the tire model
 is not very complex based on the low amount of layers needed to model the tire.
 It would be interesting to put this model to the test with real life data,
@@ -189,6 +269,17 @@ as I imagine it will be much harder. But the results from this small experiment
 done in my spare time, give me confidence that it will be possible although 
 more complex networks might be needed.
 
-# Future Work
-Recurrent Neural Networks have great potential to improve the performance of the 
-prediction, but the run times can be expected to be much great.
+Looking at the RMSE from all the loss plots, then we can see that currently
+the ANN is showing the best performance. Not being able to shuffle the data and
+the small datasets affects the more complicated LSTM model then the ANN and
+would be why the ANN is winning in this case.
+
+# Future work
+In the future these models should be tested more on both different vehicles and
+tracks to understand how these affect the predictions and training. In Assetto
+Corsa I don't believe the track will show much difference due to the limited
+models. But in real life I think that one would probably need seperate models
+for each track, due to the surface being so different.
+
+More work should also be done on the RNN (LSTM) front, as there indication that
+better loss function can be found. 
